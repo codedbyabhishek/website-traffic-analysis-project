@@ -22,3 +22,9 @@ python src/visualize.py
 - `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/kpi/funnel_metrics.csv`
 - `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/kpi/hourly_anomaly_scan.csv`
 - `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/visuals/monthly_revenue.png`
+
+## Portfolio Preview
+![Website Traffic Dashboard Preview](assets/website_traffic_dashboard_preview.png)
+
+## Recruiter Case Study
+- `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/docs/CASE_STUDY.md`
