@@ -1,0 +1,5 @@
+funnel_stage,sessions,share
+purchase,1,0.25
+signup,1,0.25
+trial,1,0.25
+visit,1,0.25

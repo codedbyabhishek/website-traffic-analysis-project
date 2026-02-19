@@ -1,7 +1,4 @@
-channel,sessions,conversion_rate
-organic,31178,0.09006350631855796
-paid,22373,0.0888571045456577
-email,13457,0.08894998885338486
-social,13408,0.0903192124105012
-referral,8736,0.08413461538461539
-unknown,498,0.0823293172690763
+channel,sessions,conversion_rate,avg_revenue,engagement_rate
+organic,2,0.0,0.0,0.5
+email,1,1.0,45.0,1.0
+paid_search,1,1.0,20.0,1.0

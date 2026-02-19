@@ -1,5 +1,7 @@
 metric,value
-conversion_rate,0.08901282766313441
-avg_duration_sec,174.73870607919687
-avg_pageviews,4.7990630228667035
-engagement_rate,0.6171779141104294
+conversion_rate,0.5
+avg_duration_sec,210.0
+avg_pageviews,3.5
+engagement_rate,0.75
+bounce_rate,0.0
+revenue_per_session,16.25

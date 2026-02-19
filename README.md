@@ -1,28 +1,24 @@
-# Website Traffic Analysis Project
+# Website Traffic Analysis Project (High-End)
 
-Website analytics project (Jul 2025 - Dec 2025) focused on traffic behavior, engagement, and conversion insights.
+Advanced traffic intelligence project (Jul 2025 - Dec 2025).
 
-## Highlights
-- Preprocessed and cleaned website logs with Pandas and NumPy.
-- Performed statistical analysis for peak traffic windows and user behavior patterns.
-- Produced visual summaries for cross-team presentations.
-- Defined KPI framework for engagement and conversion monitoring.
+## What Makes This High-End
+- High-fidelity synthetic event logs with **220K sessions**.
+- Rich dimensions: channel, device, geo, landing page, funnel stage, bot flag, revenue.
+- Robust cleaning and quality filters (invalid duration, missing channels, bot exclusion).
+- Advanced analytics: funnel metrics, monthly performance, channel/country efficiency, anomaly detection.
+- Dashboard-ready exports for Tableau and cross-functional reporting.
 
-## Quickstart
+## Run
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 python scripts/generate_logs.py
 python src/analysis.py
 python src/visualize.py
 ```
 
-## Outputs
-- `data/processed/clean_traffic.csv`
-- `kpi/kpi_metrics.csv`
-- `visuals/hourly_traffic.png`
-- `visuals/channel_conversion.png`
-
-## Tableau
-`tableau/README.md` explains importing KPI/output CSV files into Tableau dashboards.
+## Key Outputs
+- `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/data/processed/clean_traffic.csv`
+- `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/kpi/kpi_metrics.csv`
+- `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/kpi/funnel_metrics.csv`
+- `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/kpi/hourly_anomaly_scan.csv`
+- `/Users/abhishekkumar/Documents/Projects/website-traffic-analysis-project/visuals/monthly_revenue.png`
